@@ -9,7 +9,7 @@ namespace MinhaApi.Controllers.User{
             var result = new {
                 id = 1,
                 name = "João da Silva",
-                email = ""
+                email = "dhbajhsbdj"
             };
             return Ok(result);
         }

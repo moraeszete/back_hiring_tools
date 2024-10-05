@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\lucas\\teste\\MinhaApi\\MinhaApi.csproj": {}
+    "D:\\hiring_tools_project\\back_hiring_tools\\MinhaApi.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\lucas\\teste\\MinhaApi\\MinhaApi.csproj": {
+    "D:\\hiring_tools_project\\back_hiring_tools\\MinhaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\lucas\\teste\\MinhaApi\\MinhaApi.csproj",
+        "projectUniqueName": "D:\\hiring_tools_project\\back_hiring_tools\\MinhaApi.csproj",
         "projectName": "MinhaApi",
-        "projectPath": "C:\\Projects\\lucas\\teste\\MinhaApi\\MinhaApi.csproj",
-        "packagesPath": "C:\\Users\\lucas.moraes\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\lucas\\teste\\MinhaApi\\obj\\",
+        "projectPath": "D:\\hiring_tools_project\\back_hiring_tools\\MinhaApi.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\hiring_tools_project\\back_hiring_tools\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucas.moraes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
