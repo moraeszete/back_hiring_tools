@@ -71,3 +71,16 @@ D:\hiring_tools_project\back_hiring_tools\obj\Debug\net9.0\refint\MinhaApi.dll
 D:\hiring_tools_project\back_hiring_tools\obj\Debug\net9.0\MinhaApi.pdb
 D:\hiring_tools_project\back_hiring_tools\obj\Debug\net9.0\MinhaApi.genruntimeconfig.cache
 D:\hiring_tools_project\back_hiring_tools\obj\Debug\net9.0\ref\MinhaApi.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\AWSSDK.Core.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\AWSSDK.SecurityToken.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\DnsClient.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\MongoDB.Bson.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\MongoDB.Driver.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\MongoDB.Driver.Core.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\MongoDB.Libmongocrypt.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\SharpCompress.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\Snappier.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\ZstdSharp.dll
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\runtimes\linux\native\libmongocrypt.so
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\runtimes\osx\native\libmongocrypt.dylib
+D:\hiring_tools_project\back_hiring_tools\bin\Debug\net9.0\runtimes\win\native\mongocrypt.dll

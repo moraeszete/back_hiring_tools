@@ -1,14 +1,13 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Adicionar serviços ao contêiner
-builder.Services.AddControllers(); // Adicionar suporte a controladores
+// Adicionar suporte a controladores
+builder.Services.AddSingleton<MongoService>();
+builder.Services.AddControllers();
 
+// essa merda aqui tem q esta literalmente no final do arquivo
 var app = builder.Build();
-
-// Configurar o pipeline de requisições HTTP
-app.UseHttpsRedirection(); // Redireciona HTTP para HTTPS
-
-// Mapear os controladores
+app.UseMiddleware<RequestLoggingMiddleware>();// Adiciona o middleware de log de requisições
 app.MapControllers(); // Mapeia automaticamente as rotas dos controladores
+// app.UseHttpsRedirection(); // Redireciona HTTP para HTTPS
 
 app.Run();
