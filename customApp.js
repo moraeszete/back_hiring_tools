@@ -28,8 +28,15 @@ app.use( async (ctx, next)  => {
 
 app.use( async (ctx, next) => {
   const route = ctx.path.split('/')
-  if(route[1] === 'public') {
-    console.log('rota chamada: ', route)
+  // if(route[1] === 'public') {
+    console.log('rota chamada: ', ctx.path)
+  // }
+
+  ctx.body = ctx.request.body.body || {}
+  if(ctx.req.files){
+    const newBody = JSON.parse(ctx.req.body.body)
+    ctx.body = newBody.body
+    ctx.files = ctx.req.files
   }
   // rotas de excessão login, signup, etc
   const exceptions = [
@@ -38,13 +45,13 @@ app.use( async (ctx, next) => {
 
   const map = exceptions.includes(ctx.path)
 
-  if(!map && !ctx.headers.authorization) {
-    return ctx.body = {
-      error: true,
-      errorMessage: 'Sessão expirada. Faça login novamente.',
-    }
+  // if(!map && !ctx.headers.authorization) {
+  //   return ctx.body = {
+  //     error: true,
+  //     errorMessage: 'Sessão expirada. Faça login novamente.',
+  //   }
 
-  }
+  // }
   //
   await next()
 })
